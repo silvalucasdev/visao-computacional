@@ -1,6 +1,6 @@
 import cv2
 
-video_capture = cv2.VideoCapture(0) #Deixar 0 para usar webcam, ou substituir pelo caminho do video
+video_capture = cv2.VideoCapture("deteccao-movimentos/video-movimento.mp4") #Deixar 0 para usar webcam, ou substituir pelo caminho do video
 
 first_frame = None
 
